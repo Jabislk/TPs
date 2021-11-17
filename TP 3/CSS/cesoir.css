@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+/* ----- Body ------*/
+body{
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+/* ----- fin de Body ------*/
+
+/* ----- ID container ------*/
+}
+#container{
+    background-image: url("../img/wood.jpg");
+    height: 680px;
+}
+/* ----- Fin de ID container ------*/
+
+/* ----- barre de navigation ----- */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1px 50px 15px;
+    font-family: Caveat Brush;
+}
+
+nav h1{
+    font-size: 50px;
+
+    
+}
+
+nav .onglets{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+nav .onglets p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Caveat Brush;
+    font-size: 25px;
+    margin-right: 80px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+/* ----- Fin barre de navigation ----- */
+
+/* ------ Logo et triangle ---------*/
+.logo{
+    height: 250px;
+    width: 250px;
+    margin: 60px 617px ;
+
+}
+.triangle{
+    height : 0;
+    width : 0;
+    border-top : 150px solid red;
+    border-left : 150px solid transparent;
+    margin: 60px 617px ;
+
+}
+/* ------ fin de Logo et triangle ---------*/
+
+/* ------ Our story  ---------*/
+.story{
+    margin: 50px;
+    padding: 50px;
+    height: 338px;
+    width: 404px;
+}
+.story h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.story p{
+    font-size: 15px;
+    font-family: Caveat Brush;
+}
+.story img{
+    float: left;
+    margin-left: 500px;
+}
+
+/* ------ fin de Our story  ---------*/
+
+/* ------  Fresh fare  ---------*/
+
+.head2{
+    display: inline-block;
+    margin: 50px;
+    padding: 50px;
+    height: 338px;
+    width: 404px;
+}
+.head2 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.head2 p{
+    font-size: 15px;
+    font-family: Caveat Brush;
+}
+
+/* ------  fin de Fresh fare  ---------*/
