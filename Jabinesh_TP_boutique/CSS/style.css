@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* --------------- HEADER --------------- */
+header{
+    background-color: #d9d9d9;
+    margin: 25px 250px 0;
+    justify-content: space-evenly;
+    width: 1000px;
+}
+header section{
+    display: flex;
+}
+
+.logo{
+    margin: 5px;
+}
+.logo h1{
+    margin: 0 10px 0;
+    font-size: 35px;
+}
+
+.logo p{
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 50px;
+    color: rgb(224, 36, 168);
+}
+
+.help{
+    margin: 0 70px;
+    color: rgb(103, 220, 255);
+    font-size: 25px;
+}
+.help p{
+    margin: 0;
+}
+
+.number{
+    position: relative;
+    bottom: 27px;
+    left: 51px;
+    font-size: 15px;
+}
+
+.panier{
+    margin-left: 160px;
+}
+.txtpanier{
+    text-align: center;
+    background-color: rgb(103, 220, 255);
+    color: #fff;
+}
+
+.panier p{
+    margin: 0 0 1px;
+    background-color: rgb(103, 220, 255);
+    color: #fff;
+}
+
+.panier img{
+    height: 30px;
+}
+
+ul{
+    list-style-type: none;
+    height: 50px;
+    width: 96%;
+    background-color: rgb(103, 220, 255);
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+ul li{
+    margin: 15px;
+    color: white;
+    font-size: 16px;
+}
+ul .pink{
+    background-color: rgb(224, 36, 168);
+}
+
+/*---------------- MAIN -------------------- */
+main{
+    background-color: #d9d9d9;
+    margin: 0px 250px ;
+    width: 1000px;
+}
+
+main section{
+    display: flex;
+}
+.payment{
+    margin: 15px;
+
+}
+
+.txtpayment{
+    font-size: 15px;
+    color: rgb(103, 220, 255);
+}
+.payment p{
+    font-size: 16px;
+}
+
+.aide{
+    margin: 15px;
+}
+.txtaide{
+    font-size: 15px;
+    color: rgb(103, 220, 255);
+}
+.service{
+    margin: 15px 60px;
+}
+
+.service img{
+    height: 23px;
+}
+.service p{
+    display: flex;
+    font-size: 10px;
+    margin: 5px;
+}
+.txtservice{
+    font-size: 15px;
+    color: rgb(103, 220, 255);
+}
+
+.box{
+    margin: 25px;
+    border: 1px solid black;
+}
+
+/*-------------------FOOTER-------------------*/
+footer{
+    margin: 0 250px 0;
+    justify-content: space-evenly;
+    width: 1000px;
+    font-size: 10px;
+}
+footer ul li{
+    font-size: 10px;
+}
