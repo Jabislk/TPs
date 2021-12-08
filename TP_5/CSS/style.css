@@ -1,0 +1,45 @@
+/*------------ GOOGLE FONT IMPORT ------------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+/*------------ BODY ------------- */
+
+#conteneur{
+    font-family: 'Shadows Into Light', cursive;
+    margin: auto;
+    padding: 0;
+    width: 50%;
+    height: 50%;
+    background-color: #273978;
+}
+
+/*------------ HEADER -------------- */
+header{
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+h1{
+    font-size: 35px;
+}
+
+/*------------ MAIN -------------- */
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+p{
+    color: #ffffff;
+}
+
+section{
+    text-align: center;
+    font-size: 19px;
+    margin: 15px;
+}
+
