@@ -33,8 +33,9 @@ main{
     justify-content: space-around;
 }
 
-p{
+h2{
     color: #ffffff;
+    font-size: 15px;
 }
 
 section{
